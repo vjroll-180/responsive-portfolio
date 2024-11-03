@@ -38,6 +38,7 @@ h2 {
 
 .btn-branding {
   background: var(--secondary-color);
+  color: white;
   padding: 12px;
   border-radius: 8px;
   font-weight: 600;
@@ -54,9 +55,31 @@ h2 {
   padding-top: 50px;
 }
 
+.content {
+  font-family: var(--heading-font-family);
+  padding: 30px;
+}
+
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content h2 {
+  font-size: 20px;
+}
+
+.content-spacing {
+  padding: 30px;
+}
+
 @media (max-width: 900px) {
   .project-title {
     padding-top: 10px;
+    text-align: center;
+  }
+
+  .content {
     text-align: center;
   }
 }
