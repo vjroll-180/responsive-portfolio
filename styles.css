@@ -100,6 +100,10 @@ h3 {
   padding: 10px;
 }
 
+.active {
+  color: brown !important;
+}
+
 @media (max-width: 900px) {
   .project-title {
     padding-top: 10px;
